@@ -1,13 +1,20 @@
-# RAI_UMA_Challenge
+# <pre>              RAI_UMA_Challenge by Reflexer Labs</pre>
+<p align="center">
+  <img src="Reflexer.jpg" width="350" title="hover text">
+</p>
 
-## Challenge
+## <pre>                                   **Challenge**</pre>
 https://gitcoin.co/issue/reflexer-labs/geb/97/100024834
 
 To build a synthetic asset tracking the
 [Kovan RAI](https://github.com/reflexer-labs/geb-changelog/tree/master/releases/kovan/1.4.0/median/fixed-discount)
 redemption rate movements using [UMA](https://docs.umaproject.org/build-walkthrough/build-process).
 
-## Overview
+## <pre>                                   **Overview**</pre>
+<p align="center">
+  <img src="UMA_square_red_logo.png" width="350" title="hover text">
+</p>
+
 UMA is a fast, flexible and secure way to create synthetic assets on Ethereum. UMA has defined a novel architecture
 that enables anyone to create a synth asset that can track virtually anything from stock markets in Iran to gas 
 fees on Ethereum safely and securely.
@@ -18,7 +25,7 @@ Also a DApp(fork of UMAProtocol/emp-tools) to interact with my EMP and manage/cr
 https://emp-tools-2391flb9z-ashutoshvarma.vercel.app/
 
 
-## Solution
+## <pre>                                   **Solution**</pre>
 
 ### Pricing Model
 `Redemption_Rate` is the rate at which RAI is being devalued or revalued, it can therefore be negative as well. It is stored as `redemptionRate` in `OracleRelayer` relayer contract. Mathematically,
@@ -34,7 +41,7 @@ Therefore `redemptionRate` is bound in (0,2) which makes it a sensible candiadat
 
 To mitigate this for somme extent we can use `annualizedRate` which is scaled version of redemptionRate.
 ```
-annualizedRate = (redemptionRate) ^ (365 * 12 * 30 * 24 * 3600)
+annualizedRate = (redemptionRate) ^ (365 * 12 * 30 * 24 * 3600)  
 ```
 
 Lastly, to prevent market manuplation due to flash loans and other factors which can make `Redemption_Rate` volatile for very short period (which can casue sudden liquidations) we will take Time Weighted Average Price (TWAP) of `annualizedRate`.
@@ -94,7 +101,7 @@ EMP Contract Deployed  to Kovan using launch-emp scipts provided by UMA at
 https://kovan.etherscan.io/address/0x08eA186755Ad743897c00AAfaEF7Fb9A7EcE8cf3
 
 
-### DApp
+## <pre>                                  **LIVE Dapp**</pre>
 Deployed - https://emp-tools-2391flb9z-ashutoshvarma.vercel.app/
 
 Source - https://github.com/ashutoshvarma/emp-tools
