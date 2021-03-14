@@ -3,7 +3,7 @@
   <img src="Reflexer.jpg" width="350" title="hover text">
 </p>
 
-## <pre>                                     **Challenge**</pre>
+## <pre>                                      **Challenge**</pre>
 https://gitcoin.co/issue/reflexer-labs/geb/97/100024834
 
 To build a synthetic asset tracking the
