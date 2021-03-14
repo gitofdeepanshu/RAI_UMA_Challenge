@@ -3,14 +3,14 @@
   <img src="Reflexer.jpg" width="350" title="hover text">
 </p>
 
-## <pre>                                   **Challenge**</pre>
+## <pre>                                     **Challenge**</pre>
 https://gitcoin.co/issue/reflexer-labs/geb/97/100024834
 
 To build a synthetic asset tracking the
 [Kovan RAI](https://github.com/reflexer-labs/geb-changelog/tree/master/releases/kovan/1.4.0/median/fixed-discount)
 redemption rate movements using [UMA](https://docs.umaproject.org/build-walkthrough/build-process).
 
-## <pre>                                   **Overview**</pre>
+## <pre>                                      **Overview**</pre>
 <p align="center">
   <img src="UMA_square_red_logo.png" width="350" title="hover text">
 </p>
