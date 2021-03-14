@@ -3,14 +3,14 @@
   <img src="Reflexer.jpg" width="350" title="hover text">
 </p>
 
-## <pre>                                 **Challenge**</pre>
+## <pre>                              **Challenge**</pre>
 https://gitcoin.co/issue/reflexer-labs/geb/97/100024834
 
 To build a synthetic asset tracking the
 [Kovan RAI](https://github.com/reflexer-labs/geb-changelog/tree/master/releases/kovan/1.4.0/median/fixed-discount)
 redemption rate movements using [UMA](https://docs.umaproject.org/build-walkthrough/build-process).
 
-## <pre>                                  **Overview**</pre>
+## <pre>                               **Overview**</pre>
 <p align="center">
   <img src="UMA_square_red_logo.png" width="350" title="hover text">
 </p>
@@ -25,7 +25,7 @@ Also a DApp(fork of UMAProtocol/emp-tools) to interact with my EMP and manage/cr
 https://emp-tools-2391flb9z-ashutoshvarma.vercel.app/
 
 
-## <pre>                                 **Solution**</pre>
+## <pre>                              **Solution**</pre>
 
 ### Pricing Model
 `Redemption_Rate` is the rate at which RAI is being devalued or revalued, it can therefore be negative as well. It is stored as `redemptionRate` in `OracleRelayer` relayer contract. Mathematically,
@@ -101,7 +101,7 @@ EMP Contract Deployed  to Kovan using launch-emp scipts provided by UMA at
 https://kovan.etherscan.io/address/0x08eA186755Ad743897c00AAfaEF7Fb9A7EcE8cf3
 
 
-## <pre>                                  **LIVE Dapp**</pre>
+## <pre>                               **LIVE Dapp**</pre>
 Deployed - https://emp-tools-2391flb9z-ashutoshvarma.vercel.app/
 
 Source - https://github.com/ashutoshvarma/emp-tools
